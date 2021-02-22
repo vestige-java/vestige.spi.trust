@@ -25,6 +25,6 @@ public interface Signature {
 
     boolean verify(InputStream inputStream) throws TrustException;
 
-    PublicPart getPublicKey() throws TrustException;
+    PublicPart getPublicPart() throws TrustException;
 
 }

@@ -21,6 +21,6 @@ package fr.gaellalire.vestige.spi.trust;
  */
 public interface PGPSignature extends Signature {
 
-    PGPPublicPart getPublicKey() throws TrustException;
+    PGPPublicPart getPublicPart() throws TrustException;
 
 }
