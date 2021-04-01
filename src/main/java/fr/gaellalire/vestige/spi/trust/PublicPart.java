@@ -28,4 +28,6 @@ public interface PublicPart {
 
     boolean verify(final InputStream dataInputStream, final InputStream signatureInputStream) throws TrustException;
 
+    boolean isTrusted() throws TrustException;
+
 }

@@ -16,10 +16,14 @@
 
 package fr.gaellalire.vestige.spi.trust;
 
+import java.io.InputStream;
+
 /**
  * @author Gael Lalire
  */
 public interface PGPTrustSystem extends TrustSystem {
+
+    PGPSignature loadSignature(InputStream inputStream) throws TrustException;
 
     PGPPrivatePart getDefaultPrivatePart() throws TrustException;
 

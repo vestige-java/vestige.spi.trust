@@ -21,4 +21,6 @@ package fr.gaellalire.vestige.spi.trust;
  */
 public interface PGPPrivatePart extends PrivatePart {
 
+    PGPPublicPart getPublicPart() throws TrustException;
+
 }
