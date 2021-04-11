@@ -229,8 +229,8 @@
     </snapshotRepository>
   </distributionManagement>
   <scm>
-    <connection>scm:git:git@gaellalire.fr:gaellalire/vestige.spi.trust.git</connection>
-    <developerConnection>scm:git:git@gaellalire.fr:gaellalire/vestige.spi.trust.git</developerConnection>
+    <connection>scm:git:git@gaellalire.fr:vestige/vestige.spi.trust.git</connection>
+    <developerConnection>scm:git:git@gaellalire.fr:vestige/vestige.spi.trust.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <reporting>
